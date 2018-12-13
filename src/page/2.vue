@@ -73,19 +73,15 @@
         <div class="right"><img src="../images/2/erweima.png"></div>
       </div>
     </div>
+    <jump></jump>
   </div>
 </template>
 
 <script>
-import { Grid, GridItem, GroupTitle } from 'vux'
-import { Flexbox, FlexboxItem } from 'vux'
+import jump from '../components/jump'
 export default {
   components: {
-    Flexbox,
-    FlexboxItem,
-    Grid,
-    GridItem,
-    GroupTitle
+    jump
   },
   methods: {
   },

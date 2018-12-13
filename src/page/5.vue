@@ -34,16 +34,15 @@
         </li>
       </ol>
     </div>
+    <jump></jump>
   </div>
 </template>
 
 <script>
-import { Grid, GridItem, GroupTitle } from 'vux'
+import jump from '../components/jump'
 export default {
   components: {
-    Grid,
-    GridItem,
-    GroupTitle
+    jump
   },
   methods: {
   },

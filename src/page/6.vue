@@ -18,12 +18,15 @@
       <p>7个月(28周)，每两周配送1次</p>
       <p>每次配送30枚，共420枚</p>
     </div>
+    <jump></jump>
   </div>
 </template>
 
 <script>
+import jump from '../components/jump'
 export default {
   components: {
+    jump
   },
   methods: {
   },

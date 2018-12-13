@@ -21,7 +21,6 @@
         <h4>订阅套餐</h4>
       </grid-item>
     </grid>
-
     <div class="content">
       <h3>100000盒爱心蛋免费领</h3>
       <img src="../images/index/product0.png" alt="">
@@ -37,19 +36,22 @@
       <h4>快乐的蛋   &《非常静距离》钟意秀-视频</h4>
       <img src="../images/index/bg.png" alt="">
     </div>
+    <jump></jump>
   </div>
 </template>
 
 <script>
 import { Grid, GridItem, GroupTitle } from 'vux'
 import { Flexbox, FlexboxItem } from 'vux'
+import jump from '../components/jump'
 export default {
   components: {
     Flexbox,
     FlexboxItem,
     Grid,
     GridItem,
-    GroupTitle
+    GroupTitle,
+    jump
   },
   methods: {
   },

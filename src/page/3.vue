@@ -33,19 +33,15 @@
         <p>7个月(28周)，每两周配送1次</p>
       </li>
     </ul>
+    <jump></jump>
   </div>
 </template>
 
 <script>
-import { Grid, GridItem, GroupTitle } from 'vux'
-import { Flexbox, FlexboxItem } from 'vux'
+import jump from '../components/jump'
 export default {
   components: {
-    Flexbox,
-    FlexboxItem,
-    Grid,
-    GridItem,
-    GroupTitle
+    jump
   },
   methods: {
   },

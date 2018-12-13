@@ -18,19 +18,15 @@
         <img src="../images/4/list2.png">
       </div>
     </div>
+    <jump></jump>
   </div>
 </template>
 
 <script>
-import { Grid, GridItem, GroupTitle } from 'vux'
-import { Flexbox, FlexboxItem } from 'vux'
+import jump from '../components/jump'
 export default {
   components: {
-    Flexbox,
-    FlexboxItem,
-    Grid,
-    GridItem,
-    GroupTitle
+    jump
   },
   methods: {
   },
