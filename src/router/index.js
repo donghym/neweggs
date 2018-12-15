@@ -9,7 +9,10 @@ import page5 from '@/page/5'
 import page6 from '@/page/6'
 import page7 from '@/page/7'
 import page8 from '@/page/8'
-import detail from '@/page/detail'
+
+import detailegg1 from '@/page/detail/egg1/1'
+import detailegg2 from '@/page/detail/egg1/2'
+import detailegg3 from '@/page/detail/egg1/3'
 
 Vue.use(Router)
 export default new Router({
@@ -46,9 +49,17 @@ export default new Router({
     name: 'page8',
     component: page8
   }, {
-    path: '/detail',
-    name: 'detail',
-    component: detail
+    path: '/detail/egg1/1',
+    name: 'detailegg1',
+    component: detailegg1
+  }, {
+    path: '/detail/egg1/2',
+    name: 'detailegg2',
+    component: detailegg2
+  }, {
+    path: '/detail/egg1/3',
+    name: 'detailegg3',
+    component: detailegg3
   }, {
     path: '/*',
     name: 'index',

@@ -1,6 +1,5 @@
 <template>
   <div class="page6">
-    <jump></jump>
     <div class="content">
       <h3>孕期家庭专属<img src="../images/common/more.png"></h3>
       <img src="../images/6/top.png">

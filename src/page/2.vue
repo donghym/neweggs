@@ -1,6 +1,5 @@
 <template>
   <div class="page2">
-    <jump></jump>
     <div class="title">
       <img src="../images/2/top.png">
       <span>
@@ -74,6 +73,7 @@
         <div class="right"><img src="../images/2/erweima.png"></div>
       </div>
     </div>
+    <jump></jump>
   </div>
 </template>
 

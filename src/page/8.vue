@@ -1,6 +1,5 @@
 <template>
   <div class="page8">
-    <jump></jump>
     <div class="content">
       <h3>专属礼品定制<img src="../images/common/more.png"></h3>
       <img src="../images/8/t1.png">

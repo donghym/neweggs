@@ -1,6 +1,5 @@
 <template>
   <div class="page7">
-    <jump></jump>
     <div class="content">
       <h3>0-6岁亲子家庭专属<img src="../images/common/more.png"></h3>
       <img src="../images/7/top.png">

@@ -1,6 +1,5 @@
 <template>
   <div class="page5">
-    <jump></jump>
     <div class="content-list">
       <h3 class="clearfix">
         热销单品
