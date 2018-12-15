@@ -1,25 +1,21 @@
 <template>
-  <div class="page7">
-    <jump></jump>
+  <div class="page8">
     <div class="content">
-      <h3>0-6岁亲子家庭专属<img src="../images/common/more.png"></h3>
-      <img src="../images/7/top.png">
+      <h3>专属礼品定制<img src="../images/common/more.png"></h3>
+      <img src="../images/8/t1.png">
+      <img src="../images/8/t2.png">
     </div>
     <div class="content">
-      <h3>0-6岁宝宝多营养鲜鸡蛋</h3>
-      <ul class="clearfix">
-        <li><img src="../images/7/p1.png"></li>
-        <li><img src="../images/7/p2.png"></li>
-      </ul>
-    </div>
-    <div class="content">
-      <h3>订阅套餐<img src="../images/common/more.png"></h3>
-      <img src="../images/7/b.png">
+      <h3>热销订阅制套餐<img src="../images/common/more.png"></h3>
+      <img src="../images/8/list1.png">
+      <h4>孕妈多营养鸡蛋  孕期安心陪伴订阅制套餐</h4>
+      <p>7个月(28周)，每两周配送1次</p>
+      <p>每次配送30枚，共420枚</p>
+      <img src="../images/8/list2.png">
       <h4>0-6岁宝宝多营养鸡蛋  年度呵护订阅制套餐</h4>
-      <p>1年(52周)，每两周配送1次</p>
+      <p> 1年(52周)，每两周配送1次</p>
       <p>每次配送30枚，共780枚</p>
     </div>
-    <jump></jump>
   </div>
 </template>
 <script>

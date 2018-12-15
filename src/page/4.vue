@@ -1,5 +1,6 @@
 <template>
   <div class="page4">
+    <jump></jump>
     <ul class="page4-top">
       <li><img src="../images/4/top1.png"></li>
       <li><img src="../images/4/top2.png"></li>

@@ -9,6 +9,8 @@ import page5 from '@/page/5'
 import page6 from '@/page/6'
 import page7 from '@/page/7'
 import page8 from '@/page/8'
+import detail from '@/page/detail'
+
 Vue.use(Router)
 export default new Router({
   routes: [{
@@ -43,6 +45,10 @@ export default new Router({
     path: '/8',
     name: 'page8',
     component: page8
+  }, {
+    path: '/detail',
+    name: 'detail',
+    component: detail
   }, {
     path: '/*',
     name: 'index',
