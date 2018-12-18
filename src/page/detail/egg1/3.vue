@@ -11,7 +11,7 @@
     <img src="../../../images/detail/egg-1/egg3-9.jpg">
     <div>
       <div class="clear10"></div>
-      <video src="../../../images/detail/egg-1/egg3-10.mp4" controls="controls">
+      <video src="../../../video/v1.mp4" controls="controls">
         您的浏览器不支持 video 标签。
       </video>
     </div>

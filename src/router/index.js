@@ -13,6 +13,9 @@ import page8 from '@/page/8'
 import detailegg1 from '@/page/detail/egg1/1'
 import detailegg2 from '@/page/detail/egg1/2'
 import detailegg3 from '@/page/detail/egg1/3'
+import detailegg4 from '@/page/detail/egg1/4'
+import detailegg5 from '@/page/detail/egg2/1'
+import detailegg6 from '@/page/detail/egg2/2'
 
 Vue.use(Router)
 export default new Router({
@@ -61,8 +64,24 @@ export default new Router({
     name: 'detailegg3',
     component: detailegg3
   }, {
+    path: '/detail/egg1/4',
+    name: 'detailegg4',
+    component: detailegg4
+  }, {
+    path: '/detail/egg2/1',
+    name: 'detailegg5',
+    component: detailegg5
+  }, {
+    path: '/detail/egg2/2',
+    name: 'detailegg6',
+    component: detailegg6
+  }, {
     path: '/*',
     name: 'index',
     component: index
-  }]
+  }],
+  scrollBehavior(to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
+
 })
