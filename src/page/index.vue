@@ -9,25 +9,37 @@
         <h4>五星蛋</h4>
       </grid-item>
       <grid-item>
-        <img src="../images/index/Pregnant.png">
-        <h4>孕妇蛋</h4>
+        <router-link to="6">
+          <img src="../images/index/Pregnant.png">
+          <h4>孕妇蛋</h4>
+        </router-link>
       </grid-item>
       <grid-item>
+        <router-link  to="7">
         <img src="../images/index/baby.png">
         <h4>宝宝蛋</h4>
+        </router-link>
       </grid-item>
       <grid-item>
+        <router-link  to="4">
         <img src="../images/index/Subscribe.png">
         <h4>订阅套餐</h4>
+          </router-link>
       </grid-item>
     </grid>
     <div class="content">
       <h3>100000盒爱心蛋免费领</h3>
+      <router-link  to="2">
       <img src="../images/index/product0.png" alt="">
+      </router-link>
       <h3>专享订阅套餐，消费金融返现</h3>
+      <router-link  to="3">
       <img src="../images/index/product1.png" alt="">
+      </router-link>
       <h3>尊享礼品卡</h3>
+      <router-link  to="8">
       <img src="../images/index/product2.png" alt="">
+      </router-link>
     </div>
     <div class="content">
       <h3>快乐鸡舍互动游戏<img src="../images/common/more.png" alt=""></h3>
@@ -74,5 +86,5 @@ export default {
   .content h3{font-weight: bolder;font-size: 16px;width: 90%;margin: 0 auto; padding-top: 20px;}
   .content h3 img{float: right;margin-top: 8px;width: 32px;margin-right: 10px;}
   .content h4{width: 90%;margin: 0 auto 10px;font-size: 14px;color: #b4b4b4;}
-  .content>img{display:block;width:92%;margin: 20px auto 10px;}
+  .content img{display:block;width:92%;margin: 20px auto 10px;}
 </style>
