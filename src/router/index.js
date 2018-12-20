@@ -16,6 +16,8 @@ import detailegg3 from '@/page/detail/egg1/3'
 import detailegg4 from '@/page/detail/egg1/4'
 import detailegg5 from '@/page/detail/egg2/1'
 import detailegg6 from '@/page/detail/egg2/2'
+import detailegg7 from '@/page/detail/egg2/3'
+import detailegg8 from '@/page/detail/egg1/5'
 
 Vue.use(Router)
 export default new Router({
@@ -76,6 +78,15 @@ export default new Router({
     name: 'detailegg6',
     component: detailegg6
   }, {
+    path: '/detail/egg2/3',
+    name: 'detailegg7',
+    component: detailegg7
+  },
+    {
+      path: '/detail/egg1/5',
+      name: 'detailegg8',
+      component: detailegg8
+    },{
     path: '/*',
     name: 'index',
     component: index

@@ -5,8 +5,10 @@
     </div>
     <grid :show-lr-borders="false" :show-tb-borders="false" :show-vertical-dividers="false" class='label'>
       <grid-item>
+        <router-link to="5">
         <img src="../images/index/egg.png">
         <h4>五星蛋</h4>
+        </router-link>
       </grid-item>
       <grid-item>
         <router-link to="6">

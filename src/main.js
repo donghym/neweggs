@@ -3,15 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import VueAwesomeSwiper from 'vue-awesome-swiper'
+import { Swiper } from 'vux'
 
 Vue.config.productionTip = false
 import { AlertPlugin, ToastPlugin } from 'vux'
 
 Vue.use(AlertPlugin)
 Vue.use(ToastPlugin)
-Vue.use(VueAwesomeSwiper)
 
+Vue.component('swiper', Swiper)
 
 /* eslint-disable no-new */
 new Vue({
