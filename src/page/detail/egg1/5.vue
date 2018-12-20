@@ -1,9 +1,10 @@
 <template>
-  <div class="detailegg4">
+  <div class="detailegg8">
+    <swiper :list="list" :show-desc-mask="false" :auto="true" height="220px"></swiper>
     <img src="../../../images/detail/egg-2/egg9-0.jpg">
     <img src="../../../images/detail/egg-2/egg9-1.jpg">
     <img src="../../../images/detail/egg-2/egg9-2.jpg">
-    <img src="../../../images/detail/egg-2/egg9-3.jpg">
+    <img src="../../../images/detail/egg-2/egg9-8.jpg">
     <img src="../../../images/detail/egg-2/egg9-4.jpg">
     <img src="../../../images/detail/egg-1/egg2-2.jpg">
     <img src="../../../images/detail/egg-1/egg2-8.jpg">
@@ -32,19 +33,58 @@
   </div>
 </template>
 <script>
-export default {
-  components: {
-  },
+  import { Swiper, SwiperItem } from 'vux'
+  import pic1 from '../../../images/detail/banner/egg9-9.jpg'
+  import pic2 from '../../../images/detail/banner/egg9-10.jpg'
+  import pic3 from '../../../images/detail/banner/egg9-11.jpg'
+  import pic4 from '../../../images/detail/banner/egg9-12.jpg'
+  import pic5 from '../../../images/detail/banner/egg9-13.jpg'
+  import pic6 from '../../../images/detail/banner/egg9-14.jpg'
+  export default {
+    components: {
+      Swiper,
+      SwiperItem
+    },
   methods: {
   },
   data () {
     return {
+      list:[{
+        url: 'javascript:',
+        img: pic1,
+        title: ''
+      }, {
+        url: 'javascript:',
+        img: pic2,
+        title: ''
+      },{
+        url: 'javascript:',
+        img: pic3,
+        title: ''
+      },{
+        url: 'javascript:',
+        img: pic4,
+        title: ''
+      },{
+        url: 'javascript:',
+        img: pic5,
+        title: ''
+      },{
+        url: 'javascript:',
+        img: pic6,
+        title: ''
+      }]
     }
   }
 }
 </script>
+<style>
+  .swiper-demo-img img {
+    width: 100%;
+  }
+</style>
 <style scoped>
-  .detailegg4{background-color: #f2f7fc;overflow: hidden;}
-  .detailegg4 img{width: 100%;}
+  .detailegg8{background-color: #f2f7fc;overflow: hidden;}
+  .detailegg8 img{width: 100%;}
   video{margin-left: -1px;width: 100%;}
 </style>
